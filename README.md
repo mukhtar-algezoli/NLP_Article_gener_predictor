@@ -1,4 +1,4 @@
-# Article gener predictor  
+# Article genre predictor  
 ## Task
 build a python/pytorch programme that captures the sequence of words from an article headline and predict its genre(bussinese,sci/tech,world,sport) using ag_news dataset.
 ## Summary 
