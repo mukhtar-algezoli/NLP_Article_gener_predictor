@@ -8,10 +8,12 @@ this project uses nlp embeddings and CNNs to predict the gener of an article fro
 ## Design 
 a website will soon be released
 ## Run Locally
-   * import torch,re
+   * download glove embedding using the link : https://nlp.stanford.edu/projects/glove/
+   * name glove file "glove_data" and put it in the file of the project. 
+   * import torch,re.
    * Savedmodel.tar has the pretrained weights
    * for new prediction run predict.py and insert the headline as instructed (will take few seconds to load the embeddings)
-   * for training just run training.py
+   * for training just run training.py.
 ## Tech stack
    * pytorch
    * CNN
