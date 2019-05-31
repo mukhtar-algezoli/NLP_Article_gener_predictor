@@ -118,7 +118,7 @@ if os.path.exists(PATH):
   
   
 #predict
-sample = "how smartphones has changed the world"
+sample = input("insert the headline : ")
 prediction = predict_category(sample, classifier, 
                                       vectorizer, dataset._max_seq_length + 1)
 print("Prediction: {} (p={:0.2f})".format(prediction['category'],
